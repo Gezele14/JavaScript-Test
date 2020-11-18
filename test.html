@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Middeware</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!--Title-->
+    <h1>Middleware Junior JS Test</h1>
+
+    <!--Hide/show buttons-->
+    <div class="button__container">
+      <button class="button" id="hsInstructions">Hide/Show Instructions</button>
+      <button class="button" id="hsBar">Hide/Show Progress</button>
+      <button class="button" id="hsDeveloper">Hide/show Info</button>
+    </div>
+
+    <!--Instructions-->
+    <div class="text__container" id="instr__container">
+      <h2>Instructions</h2>
+      <ol>
+        <li>Write the max quantity in the "Quantity" input</li>
+        <li>
+          In the "Goal" input write the amount to calculate the percentage
+        </li>
+        <li>
+          The progress bar will change automatically andd ahow the porcentage
+        </li>
+      </ol>
+    </div>
+
+    <!--Input section-->
+    <div class="input__container">
+      <label for="quantity">Quantity:</label>
+      <input type="number" id="quantity" placeholder="Enter a number" />
+    </div>
+
+    <div class="input__container">
+      <label for="goal">Goal:</label>
+      <input type="number" id="goal" placeholder="Enter a number" />
+    </div>
+
+    <!--Progress bar-->
+    <div id="Progress">
+      <div id="Bar">0%</div>
+    </div>
+
+    <!--Info-->
+    <div class="text__container" id="info__container">
+      <h3>Page Developed by: Gerardo Zeledon</h3>
+    </div>
+
+    <!--JS Script-->
+    <script src="app.js"></script>
+  </body>
+</html>
